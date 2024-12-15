@@ -1,0 +1,24 @@
+@keyframes words {
+    0% { content: "S"; }
+    5% { content: "D_"; }
+    10% { content: "De"; }
+    15% { content: "De_"; }
+    20% { content: "Dev"; }
+    25% { content: "Dev_"; }
+    30% { content: "Deve"; }
+    35% { content: "Deve_"; }
+    40% { content: "Devel"; }
+    45% { content: "Devel_"; }
+    50% { content: "Develop"; }
+    55% { content: "Develop_"; }
+    60% { content: "Developer"; }
+    65% { content: "Developer_"; }
+    70% { content: "Developer"; } /* Hold */
+        /* Start erasing */
+    75% { content: "Developer_"; }
+    80% { content: "Develope"; }
+    85% { content: "Develop_"; }
+    90% { content: "Devel"; }
+    95% { content: "Deve_"; }
+    100% { content: "Dev"; }
+}

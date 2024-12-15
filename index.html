@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatline</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ea5aa8a8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header  -->
+    <div id="header">
+        
+        <video id="bj-d" autoplay loop muted playsinline>
+            <source src="img/bj.mp4" type="video/mp4">
+          </video>
+
+          <video id="bj-p" autoplay loop muted playsinline>
+            <source src="img/bj-phone.mp4" type="video/mp4">
+          </video>
+
+        <div class="container">
+            <nav>
+                 <div class="flatline">Flatline<span style="color: red;">.</span></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Front<span style="color: red;">end</span><div id="devtext">dev</div></p> -->
+
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">We Design<span></span></div>
+
+                
+                <h1>Hey we are <div id="animatedtext"><span>Flatline</span></div>.<br>Making Experiences</h1>
+            </div>
+        </div>
+        <!-- header  -->
+
+
+            <!-- ----------------------About-------------------- -->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="img/user.png" alt="Profile Picture">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">Behind Flatline</h1>
+                            <p>At Flatline, we don’t just create websites—we shape experiences that transcend the screen. Our passion lies in the details, where technology meets artistry, creating a seamless flow between design and functionality. Every pixel is deliberate, every interaction meticulously crafted to evoke emotion and build lasting connections.</p>
+            
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')"">Experience</p>
+                                <p class="tab-links" onclick="opentab('journey')">Journey</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Visionary Insight</span><br>Turning concepts into cutting-edge web designs that captivate and engage.</li>
+                                    <li><span>Responsive Craftsmanship</span><br>Building seamless, multi-device experiences that delight users wherever they are.</li>
+                                    <li><span>Continuous Innovation</span><br>Staying at the forefront of technology with a relentless commitment to learning and evolving.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Real-world Experience</span><br>Working with clients to translate their vision into functional, user-friendly web solutions.</li>
+                                    <li><span>Project Management</span><br>Leading cross-functional teams to deliver projects on time and with exceptional quality.</li>
+                                    <li><span>Client Collaboration</span><br>Building strong relationships to understand needs, deliver customized solutions, and drive business success.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="journey">
+                                <ul>
+                                    <li><span>Ongoing Learning</span><br>Staying ahead of the curve through continuous education in the latest web technologies and trends.</li>
+                                    <li><span>Formal Training</span><br>Obtaining certifications in front-end development, UX/UI design, and responsive web design.</li>
+                                    <li><span>Hands-on Experience</span><br>Working on diverse projects that span industries, from startups to established brands.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- ----------------------About-------------------- -->
+
+                <!-- --------------------------------------Services------------------------------------- -->
+                <div id="services">
+                    <div class="container">
+                        <h1 class="sub-title">My Services</h1>
+                        <div class="services-list">
+                            <div>
+                                <i class="fa-solid fa-pen-nib"></i>
+                                <h2>Graphics Designings</h2>
+                                <p>Bring your ideas to life with designs that don’t just look good—they connect. From bold branding to eye-catching visuals, I create graphics that leave lasting impressions.</p>
+                                <a href="#">Learn more</a>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-code"></i>
+                                <h2>Front-End Web Development</h2>
+                                <p>Turn your vision into a seamless, stunning website that captivates your audience. Beautiful, responsive, and designed to convert—this is web development done right.</p>
+                                <a href="#">Learn more</a>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-video"></i>
+                                <h2>Video Editing</h2>
+                                <p>Transform your raw footage into stories that engage, inspire, and sell. I craft videos that grab attention and keep your audience coming back for more.</p>
+                                <a href="#">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- --------------------------------------Services------------------------------------- -->
+
+                <!-- --------------------------------------Portfolio------------------------------------- -->
+            
+                <div id="portfolio">
+                    <div class="container">
+                        <h1 class="sub-title">Our work</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="work/inspira/images/logo.png">
+                                <div class="layer">
+                                    <h3>Inspira</h3>
+                                    <p>At Inspira, we craft innovative solutions that spark creativity and elevate experiences. From seamless designs to impactful strategies, our work reflects passion and excellence in every detail.</p>                                    
+                                    <a href="work/inspira/index.html"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="img/work 2.png">
+                                <div class="layer">
+                                    <h3>SIYAAH</h3>
+                                    <p>Pakistan’s first hiphop clothing brand FlatLine gave Siyaah by helping them make a Experice of making there site livePakistan’s first hip-hop clothing brand, FlatLine, partnered with Siyaah to create an unforgettable experience.</p>
+                                    <a href="https://www.instagram.com/reel/DCYbbPnNTuG/"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="img/user.png">
+                                <div class="layer">
+                                    <h3>Work 3</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sequi voluptatum quam placeat ullam odit</p>
+                                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">See more</a>
+                    </div>
+                </div>
+
+
+                <!-- --------------------------------------Portfolio------------------------------------- -->
+
+
+        <!-- --------------------------------------contact us------------------------------------- -->
+        <div id="contact">
+            <div id="contactusblock">
+                <form name="submit-to-google-sheet" class="contact-form">
+                    <h1>Contact Us</h1>
+                    <div class="contactinfo">
+                        <p><i class="fas fa-paper-plane"></i>hdaudy04@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>03130099818</p>
+                    </div>
+                    <center>
+                        <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                            <a href="#" ><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </center>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <span id="msg"></span>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <!-- --------------------------------------contact us------------------------------------- -->
+
+
+        <!-- --------------------------------------footer------------------------------------- -->
+        
+        <footer>
+            &copy; 2024 Flatline. All rights reserved.
+        </footer>
+
+        <!-- --------------------------------------footer------------------------------------- -->
+
+
+
+<script>
+
+    //about us ---------------------------------------------------------------------------------------------
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab (tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    //about us ---------------------------------------------------------------------------------------------
+
+    // contact us---------------------------------------------------------------------------------------------
+    function typeEffect(element, textArray, speed) {
+        let textIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            
+            
+
+            function type() {
+                const currentText = textArray[textIndex];
+                const displayText = isDeleting
+                    ? currentText.substring(0, charIndex--)
+                    : currentText.substring(0, charIndex++);
+
+                element.setAttribute('placeholder', displayText);
+
+                if (!isDeleting && charIndex === currentText.length) {
+                    isDeleting = true;
+                    setTimeout(type, 2000); // Pause before deleting
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    textIndex = (textIndex + 1) % textArray.length;
+                    setTimeout(type, 500); // Pause before typing next
+                } else {
+                    setTimeout(type, speed);
+                }
+            }
+
+            type();
+        }
+
+
+        const nameInput = document.getElementById('name');
+        typeEffect(nameInput, ["Enter your name ", "What's your name?", "Type your name here "], 100);
+
+        const emailInput = document.getElementById('email');
+        typeEffect(emailInput, ["Enter your email ", "We need your email", "Type your email here "], 100);
+
+        const subjectInput = document.getElementById('subject');
+        typeEffect(subjectInput, ["Enter the subject ", "What's the topic?", "Type the subject here "], 100);
+
+        const messageInput = document.getElementById('message');
+        typeEffect(messageInput, ["Enter your message ", "What's on your mind?", "Type your message here "], 100);
+        // contact us---------------------------------------------------------------------------------------------
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw6iHpI50w42LOlJgiZELWo2-qx59bypPCimmZsmy0ndEUzDCUEXca1uhigmRWSZaN9Yw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const nsg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
